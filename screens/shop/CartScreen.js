@@ -8,7 +8,7 @@ import Card from '../../components/UI/Card';
 import * as cartActions from '../../store/actions/cart';
 import * as ordersActions from '../../store/actions/orders';
 
-
+//Arif 
 const CartScreen = props => {
     const cartTotalAmount = useSelector(state => state.cart.totalAmount);
     const cartItems = useSelector(state => {
@@ -67,7 +67,7 @@ const CartScreen = props => {
 
 const styles = StyleSheet.create({
     screen: {
-      margin: 20
+      margin: 21
     },
     summary: {
       flexDirection: 'row',
